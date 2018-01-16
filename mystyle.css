@@ -1,0 +1,39 @@
+
+body, html{
+    position: relative;
+}
+.bg{
+    background-image: url(bg-image-home.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navbar-brand{
+    background: url('bg-image-home.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+    width: 100%;
+}
+.right{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: thin;
+    padding: 10px;
+}
+button{
+    border-radius: 4px;
+    border:none;
+    background:transparent;
+    fill-opacity: 0.5;
+    padding: 8px;
+}
+font{
+    text-decoration: firebrick;
+    font: 1em sans-serif;
+}
